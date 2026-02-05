@@ -1,0 +1,5 @@
+n=int(input())
+n2=list(map(int,input().split()))
+n2.sort()
+n2.reverse()
+print(*n2)
