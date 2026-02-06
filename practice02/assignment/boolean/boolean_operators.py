@@ -1,0 +1,5 @@
+print(True and True)
+print(True and False)
+print(False or True)
+print(not False)
+print((5 > 3) and (2 < 1))
