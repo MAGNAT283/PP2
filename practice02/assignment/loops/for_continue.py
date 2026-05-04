@@ -1,34 +1,23 @@
-i = 0
-while i < 5:
-    i += 1
-    if i == 3:
+for i in range(5):
+    if i == 2:
         continue
     print(i)
 
-x = 0
-while x < 6:
-    x += 1
+for x in range(6):
     if x % 2 == 0:
         continue
     print(x)
 
-n = 0
-while n < 5:
-    n += 1
-    if n == 2:
+for c in "python":
+    if c == "o":
         continue
-    print("n =", n)
+    print(c)
 
-a = 0
-while a < 4:
-    a += 1
-    if a == 1:
+for n in range(4):
+    if n == 1:
         continue
-    print(a)
+    print(n)
 
-b = 0
-while b < 3:
-    b += 1
-    if b == 2:
-        continue
-    print("Hello")
+for i in range(3):
+    continue
+    print(i)

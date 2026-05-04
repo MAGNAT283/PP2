@@ -12,6 +12,6 @@ for i in range(n):
     elif cnt>mx:
         mx=cnt
         cnt=0
-        
+        mx=min(n2[i],n2[j])
 print(mx)
     

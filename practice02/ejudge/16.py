@@ -7,3 +7,4 @@ for i in range(n):
         seen.add(i)
     else :
         print("NO")
+
